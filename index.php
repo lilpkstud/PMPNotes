@@ -7,9 +7,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Index CSS -->
-    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="">
 </head>
 <body>
+    <div class="container">
+        <a href="/views/map.php">Summary Map</a>
+        <a href="/views/phase.php"> Phase Summar</a>
+    </div>
+    <!-- 49 Processes Table -->
     <div class="container">
         <h1>49 Processes and Process Groups</h1>
         <div class="table-responsive">
@@ -155,13 +160,123 @@
                         <td>11.7: Monitor Risks</td>
                         <td></td>
                     </tr>
+                    <!-- Procurement Management -->
+                    <tr>
+                        <th scope="col">[12] Procurement Management</th>
+                        <td></td>
+                        <td>12.1: Plan Procurement Management</td>
+                        <td>12.2: Conduct Procurements</td>
+                        <td>12.3: Control Procurement</td>
+                        <td></td>
+                    </tr>
+                    <!-- Stakeholder Management --> 
+                    <tr>
+                        <th scope="col">[13] Stakeholder Management</th>
+                        <td>13.1: Identify Stakeholders</td>
+                        <td>13.2: Plan Stakeholder Engagement</td>
+                        <td>13.3: Implement Stakeholder Engagement</td>
+                        <td>13.4: Monitor Stakeholder Engagement</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
     </div>
     <!-- [4] Integration Management -->
     <div class="container">
+        <h3>Integration Management</h3>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#integration" aria-expanded="true" aria-controls="integration">
+                        [4.1] Develop Project Charter
+                        </button>
+                    </h2>
+                </div>
+                <div id="integration" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <h5>4.1 Develop the Project Charter</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Birth Certificate of the project. Giving the PM the autority to apply resources.</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <p> <strong>Project Charter </strong>: 1 - 2 page document giving info about the project. Signed-off by the Project Sponsor (One who supplies the money/resources). PMO may provide the expert judgement. </p>
+                        
+                                <ul>
+                                    <li>Project Background</li>
+                                    <li>Business Case</li>
+                                    <li>Goals -> S.M.A.R.T (Specific, Measurable, Attainable, Realistic, Time-bound)</li>
+                                    <li>Who is the PM</li>
+                                    <li>Budget</li>
+                                    <li>Risk</li>
+                                    <li>Stakeholders</li>
+                                    <li>Deliverables</li>
+                                    <li>Approval Criteria</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        [4.2] Develop Project Management Plan
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Collapsible Group Item #3
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
         <h3>[4] Integration Management</h3>
+        <p>The glue to combine all processes</p>
+        <h5>4.1 Develop Project Charter</h5>
+        <div class="container">
+            <p>Birth Certificate of the project. Giving the PM the authority to apply resources</p>
+            <p> <strong>Project Charter </strong>: 1 - 2 page document giving info about the project. Signed-off by the Project Sponsor (One who supplies the money/resources). PMO may provide the xpert judgement. </p>
+            <div class="container">
+                <ul>
+                    <li>Project Background</li>
+                    <li>Business Case</li>
+                    <li>Goals -> S.M.A.R.T (Specific, Measurable, Attainable, Realistic, Time-bound)</li>
+                    <li>Who is the PM</li>
+                    <li>Budget</li>
+                    <li>Risk</li>
+                    <li>Stakeholders</li>
+                    <li>Deliverables</li>
+                    <li>Approval Criteria</li>
+                </ul>
+            </div>
+        </div>
         <div class="row">
             <div class="col">4.1: Develop Project Charter</div>
             <div class="col">definition</div>
@@ -293,26 +408,56 @@
     </div>
     <!-- [11] Risk Management -->
     <div class="container">
+        <h3>[11] Risk Management</h3>
         <div class="row">
-            <div class="col">10.1: Plan Quality Management</div>
+            <div class="col">11.1: Plan Quality Management</div>
         </div>
         <div class="row">
-            <div class="col">10.2: Identify Risks</div>
+            <div class="col">11.2: Identify Risks</div>
         </div>
         <div class="row">
-            <div class="col">10.3: Perform Qualitative Risk Analysis</div>
+            <div class="col">11.3: Perform Qualitative Risk Analysis</div>
         </div>
         <div class="row">
-            <div class="col">10.4: Perform Quantitative Risk Analysis</div>
+            <div class="col">11.4: Perform Quantitative Risk Analysis</div>
         </div>
         <div class="row">
-            <div class="col">10.5: Plan Risk Responses</div>
+            <div class="col">11.5: Plan Risk Responses</div>
         </div>
         <div class="row">
-            <div class="col">10.6: Implement Risk Responses</div>
+            <div class="col">11.6: Implement Risk Responses</div>
         </div>
         <div class="row">
-            <div class="col">10.7: Monitor Risks</div>
+            <div class="col">11.7: Monitor Risks</div>
+        </div>
+    </div>
+    <!--- [12] Procurement Management -->
+    <div class="container">
+        <h3>[12] Procurement Management</h3>
+        <div class="row">
+            <div class="col">12.1: Plan Procurement Management</div>
+        </div>
+        <div class="row">
+            <div class="col">12.2: Conduct Procurements</div>
+        </div>
+        <div class="row">
+            <div class="col">12.3: Control Procurements</div>
+        </div>
+    </div>
+    <!-- [13] Stakeholder Management -->
+    <div class="container">
+        <h3>[13] Stakeholder Management</h3>
+        <div class="row">
+            <div class="col">13.1: Identify Stakeholder Management</div>
+        </div>
+        <div class="row">
+            <div class="col">13.2: Plan Stakeholder Engagement</div>
+        </div>
+        <div class="row">
+            <div class="col">13.3: Implement Stakeholder Engagement</div>
+        </div>
+        <div class="row">
+            <div class="col">13.4: Monitor Stakeholder Engagement</div>
         </div>
     </div>
     <!-- Optional JavaScript -->
